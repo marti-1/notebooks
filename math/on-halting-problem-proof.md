@@ -45,4 +45,4 @@ Program-Halts(i) =
 3. $B$ has some index $\beta$ -- $B = H_{\beta}$. Therefore $B(\beta) = H_{\beta}(\beta)$ and also $B(\beta) = B(\beta) + 1$.
 4. **A contradiction**.
 
-NOTE: (1 -> (2 -> (3 -> false))) = false. Just a reminder, TA(true -> false) = false. Because of this, a chain of implications reduces to false if the last consequent is false.
+NOTE: $(1 \rightarrow (2 \rightarrow (3 \rightarrow false)))$ = false. Just a reminder, $\text{TA}(true \rightarrow false) = false$. Because of this, a chain of implications reduces to false if the last consequent is false.
