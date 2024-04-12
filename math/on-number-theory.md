@@ -55,3 +55,9 @@ def omega():
 ```
 
 This kind of pattern by our aliens is called **general recursive**, because it is not guaranteed to terminate, but it might.
+
+---
+
+Appendinx: Some Random Thoughts
+
+1. $\pi$ whilst real and infinite is "patterned" in a sence that by knowing the previous symbols we can predict the next symbol in line. Therefore $\pi$ can be captured by a general recursive model.
