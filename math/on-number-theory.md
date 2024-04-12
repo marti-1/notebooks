@@ -47,11 +47,11 @@ Note, the code above is written in Python language that uses alphanumeric charac
 After a couple years of collecting the S's strings, there seems to another pattern to emerge, namely that no matter what was the largest string found so far, somebody eventually finds even longer string of S's, and then longer then that, and even longer than the latter. In short the pattern seems to be "a never ending lengthening of the S strings". One of the aliens captures these pattern with a number $231,111,301,201,...$, which translates into Python as follows:
 
 ```
-def omega():
-  def omega_(x):
+def all_nS():
+  def all_nS_(x):
     yield nS(x)
-    yield from omega_(x+1)
-  yield from omega_(0)
+    yield from all_nS_(x+1)
+  yield from all_nS_(0)
 ```
 
 This kind of pattern by our aliens is called **general recursive**, because it is not guaranteed to terminate, but it might.
