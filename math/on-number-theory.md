@@ -39,7 +39,7 @@ def nS(x):
 
 They call these kind of decoding mechanism **primitive recursive**, because they primitive by nature and are guaranteed to terminate after a finite amount of time. 
 
-Note, the code above is written in Python language that uses alphanumeric characters, this is just for us humans to understand how the decoding mechanims defined by our alien species looks like. The aliens themselves use only numerals from 0 to 9 to express everything. So this Python definition in alien is just a sequence of numbers (e.g.$ 231,111,222,404,...$). Let's call these numbers [Gödel numbers](https://en.wikipedia.org/wiki/G%C3%B6del_numbering).
+Note, the code above is written in Python language that uses alphanumeric characters, this is just for us humans to understand how the decoding mechanims defined by our alien species looks like. The aliens themselves use only numerals from 0 to 9 to express everything. So this Python definition in alien is just a sequence of numbers (e.g. $231,111,222,404,\dots$). Let's call these numbers [Gödel numbers](https://en.wikipedia.org/wiki/G%C3%B6del_numbering).
 
 
 ## General Recursion
