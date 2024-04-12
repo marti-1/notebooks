@@ -36,11 +36,11 @@ In short, $\\{e\\}$ returns a program represented by $e$ that has input $x$. The
 ...
 ```
 
-The paper then proceeds by asking whether the set of constructive ordinal notations ($2^x$ and $3^e$) is [recursive](https://github.com/marti-1/notebooks/blob/main/math/on-recursive-set.md) -- can we tell if some number $3^{x}$ is a limit ordinal notation number or just some random number? The question can be generalized by asking a) whether some Godel number $e$ represents a program, and b) whether $\\{e\\}$ terminates for every input $x$?
+The paper then proceeds by asking whether the set of constructive ordinal notations ($2^x$ and $3^e$) is [recursive](https://github.com/marti-1/notebooks/blob/master/math/on-recursive-set.md) -- can we tell if some number $3^{x}$ is a limit ordinal notation number or just some random number? The question can be generalized by asking a) whether some Godel number $e$ represents a program, and b) whether $\\{e\\}$ terminates for every input $x$?
 
 a) is a yes. This is because Godel coding is bijective and well-formdness of a program is decidable.
 
-b) is a [Halting problem](https://github.com/marti-1/notebooks/blob/main/math/on-halting-problem-proof.md), so no.
+b) is a [Halting problem](https://github.com/marti-1/notebooks/blob/master/math/on-halting-problem-proof.md), so no.
 
 If the set of ordinal notations produced by a CONS was recursive, then the system would be a **recursive ordinal notation system**. Our maximal CONS is not recursive though. This gives us the Church & Kleene theorem above.
 
