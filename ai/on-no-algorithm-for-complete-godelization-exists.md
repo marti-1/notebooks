@@ -10,7 +10,7 @@ Hofstadter in his book "Gödel, Escher, Bach" uses the theorem above to claim th
 
 **Construcive Ordinal Notation System (CONS)**
 
-_The following are my notes from the ["Constructive Ordinal Notation Systems"](https://www.jstor.org/stable/2689658) paper by Frederick Gass"_
+_The following are my notes from the ["Constructive Ordinal Notation Systems"](https://www.jstor.org/stable/2689658) paper by Frederick Gass_
 
 Let's break things down and see what the arguments are all about. In general there is a _maximal_ CONS that can name all constructive ordinals -- ordinals that can be constructed using first two [Cantor's principles](https://math.stackexchange.com/questions/956779/an-easy-to-understand-definition-of-omega-1/972010#972010). Specifically, think of a system that has the following notation:
 
