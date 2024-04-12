@@ -52,7 +52,7 @@ Forming a Godel's sentence of a formal system aka. Godelization is akin to const
 
 $$G = \\{t_0, t_1, t_3, \dots | \\}$$
 
-where $t_i$ are theorems of a formal system (e.g. TNT). Since there is no single algorithm that can enumerate every constructive ordinal, there is no single algorithm that can enumerate every Godel's sentence. In other words, there is no **single** algorithm that could Godelize every formal system. However, the important thing to note that the theorem only says that there is no **single algorithm**, it [does not mean that there are no infinity of algorithms, which at a limit could Godelize](https://math.stackexchange.com/questions/4897209/does-undecidability-allow-infinite-number-of-algorithms-for-limited-ranges)! The limit would not be an algorithm anymore.
+where $t_i$ are theorems of a formal system (e.g. TNT). Since there is no single algorithm that can enumerate every constructive ordinal, there is no single algorithm that can enumerate every Godel's sentence. In other words, there is no **single** algorithm that could Godelize every formal system. However, the important thing to note that the theorem [does not mean that there are no infinity of algorithms, which at a limit could Godelize](https://math.stackexchange.com/questions/4897209/does-undecidability-allow-infinite-number-of-algorithms-for-limited-ranges)! The limit would not be an algorithm anymore.
 
 The conclusion about the limit human brain has is not really backed by anything strong, like the Church & Kleene theorem, but rather by Hofstadter's own belief in the AI version of Church-Turing thesis:
 
