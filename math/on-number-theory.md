@@ -20,7 +20,7 @@ Back to the scientific mission of the aliens. After a while of collecting these 
 * SSSS0
 * ...
 * 200 S's and 0
-* [not yet found string of 201 S's and a 0]
+* \[not yet found string of 201 S's and a 0\]
 * 202 S's and 0
 * ...
 * a one billions of S's and then 0
