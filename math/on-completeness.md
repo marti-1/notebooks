@@ -14,7 +14,7 @@ For example. The set $\Gamma=\\{p_n : n \geq 2\\}$ is not complete. To prove thi
 
 The above completeness is _syntactical completeness_. It is stronger than _semantic completeness_. From [Wikipedia](https://en.wikipedia.org/wiki/Completeness_(logic)): $S$ is syntactically complete if for each sentence (closed formula) $A$ of the langauge of the system, either $A$ or $\neg A$ is a thereom of $S$. Gödel's incompleteness theorem shows that any powerful enough system (e.g. Peano arithmetic) can't be both consistent and syntactically complete.
 
-Semantic completeness ($\vDash A \rightarrow \vdash A$), states that something is "semantically complete" when all tautologies are theorems. For example, Gödel's completeness theorem establishes semantic completeness for first-order logic.
+Semantic completeness ($\vDash A \rightarrow~ \vdash A$), states that something is "semantically complete" when all tautologies are theorems. For example, Gödel's completeness theorem establishes semantic completeness for first-order logic.
 
 In addition the book "An Introduction to Mathematical Logic" seems to call semantic completeness as _adequacy_, whilst syntactical completeness as an "informal" or "nontechnical" completeness:
 
