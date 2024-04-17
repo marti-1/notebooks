@@ -1,6 +1,8 @@
 # Implication
 
-| P | Q | P -> Q |
+My intuition about the implication is that it is a formalization of causation in mathematics. It has an arbitrary truth assignment that "works":
+
+| $P$ | $Q$ | $P \rightarrow Q$ |
 |---|---|-------|
 | T | T |   T   |
 | T | F |   F   |
