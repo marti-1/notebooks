@@ -19,7 +19,7 @@ The truth table for $\rightarrow$ is not straight forward (IMO). The only clear 
 | F | T |   T   |
 | F | F |   **F**   |
 
-Then $p\rightarrow q \vDash !p \rightarrow q$ (modus tolens) is invalid:
+Then $p\rightarrow q \vDash \neg p \rightarrow q$ (modus tolens) is invalid:
 
 | $P$ | $Q$ | $P \rightarrow Q$ | $\neg P$ | $\neg P \rightarrow Q$ | $P \rightarrow Q \vDash \neg P \rightarrow Q$ |
 |-----|-----|-------------------|---------|-----------------------|---------------------------------------------|
