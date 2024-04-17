@@ -4,5 +4,10 @@ _The following are the notes taken from the book [An Introduction to Mathematica
 
 The following example helps to gain some additional intuition about completeness (Example 2 p98):
 
-The set $\Gamma=\\{p_n : n \geq 2\\}$ is not complete. To prove this, we show that neither $p_1$ nor $!p_1$ is a theorem of $\Gamma$. Suppose $\Gamma \vdash p_1$; by soundness theorem $\Gamma \vDash p_1$. Define [truth assignment](https://github.com/marti-1/notebooks/blob/master/math/on-truth-assignment.md) $\phi(p_1) = F$ and $\phi(p_{n \geq 2}) = T$. Clearly $\phi$ satisfies $\Gamma$, and sinice $\Gamma \vDash p_1$. we have that $p_1$ is satisfied by all truthh-assignments that satisfy $\Gamma$, thus $\phi(p_1)=T$, which is a contradiction.
+
+**Completeness**: for every [formula](https://github.com/marti-1/notebooks/blob/master/math/on-formulas.md) $A$ of $P$, either $\vdash A$ or $\vdash ~!A$. 
+
+_(A system is complete if for every formula A of that system, the system can prove if it is a theorem or not)_
+
+For example. The set $\Gamma=\\{p_n : n \geq 2\\}$ is not complete. To prove this, we show that neither [proposition](https://github.com/marti-1/notebooks/blob/master/math/on-propositional-variables.md) $p_1$ nor $!p_1$ is a theorem of $\Gamma$. Suppose $\Gamma \vdash p_1$; by soundness theorem $\Gamma \vDash p_1$. Define [truth assignment](https://github.com/marti-1/notebooks/blob/master/math/on-truth-assignment.md) $\phi(p_1) = F$ and $\phi(p_{n \geq 2}) = T$. Clearly $\phi$ [satisfies](https://github.com/marti-1/notebooks/blob/master/math/on-satisfiable.md) $\Gamma$, and since $\Gamma \vDash p_1$ we have that $p_1$ is satisfied by all truth assignments that satisfy $\Gamma$, thus $\phi(p_1)=T$, which is a contradiction.
 
