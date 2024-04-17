@@ -5,7 +5,7 @@ _The following are the notes taken from the book [An Introduction to Mathematica
 The following example helps to gain some additional intuition about completeness (Example 2 p98):
 
 
-**Completeness**: for every [formula](https://github.com/marti-1/notebooks/blob/master/math/on-formulas.md) $A$ of $P$, either $\vdash A$ or $\vdash ~!A$. 
+**Completeness**: for every [formula](https://github.com/marti-1/notebooks/blob/master/math/on-formulas.md) $A$ of $P$, either $\vdash A$ or $\vdash \neg A$. 
 
 _(A propositional logic system is complete if for every formula A of that system, the system can prove if it is a theorem or not)_
 
