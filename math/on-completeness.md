@@ -17,6 +17,6 @@ The above completeness is _syntactical completeness_. It is stronger than _seman
 
 Semantic completeness ($\vDash A \rightarrow~ \vdash A$), states that something is "semantically complete" when all tautologies are theorems. For example, Gödel's completeness theorem establishes semantic completeness for first-order logic.
 
-In addition the book "An Introduction to Mathematical Logic" seems to call semantic completeness as _adequacy_, whilst syntactical completeness as an "informal" or "nontechnical" completeness:
+In addition the book "An Introduction to Mathematical Logic" seems to call semantic completeness as _adequacy_. It also makes the following distinctions:
 
 > The word "complete" has a technical meaning: every formula or its negation is a theorem. There is, however, an informal, nontechnical meaning of complete that is used in logic and applies to any formal system $F$. Quite generally, a formal system $F$ is complete if everything we want to be a theorem is a theorem. For the formal system $P$ (Propositional Logic), we want tautologies to be theorems, so in this nontechnical sense $P$ is complete.
