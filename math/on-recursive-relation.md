@@ -1,11 +1,29 @@
 # Recursive Relation
 
-A [decidable](https://github.com/marti-1/notebooks/blob/master/math/on-decision-problem.md) [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md).
 
----
+**Definition**: An n-ary  relation $R$ is _recursive_ if its characteristic function $K_{R}$ is recursive. For example, the 2-ary relation < is recursive since its characteristic function $K_{<}$ is a starting (one of the Church's axioms of formalized computability) function and hence recursive. [[p44]](https://www.amazon.com/Introduction-Mathematical-Logic-Dover-Mathematics/dp/0486497852)
 
-An equation according to which the n'th term of the sequence of numbers is equal to some combination of the previous terms e.g. Fibonacci numbers:
+**Corollary**: Every recursive relation is [decidable](https://github.com/marti-1/notebooks/blob/master/math/on-decision-problem.md).
+
+**Proof**:
+1. Let $R$ be a recursive relation.
+2. $K_{R}$ is recursive (from the definition).
+3. $K_{R}$ is decidable (since every recursive function is decidable).
+4. $R$ is a decidable relation.
+
+For example, $\text{EVEN?}$ has the following characteristic function:
+
+Piecewise definition:
 
 $$
-F_{n} = F_{n-1} + F_{n-2}
+f(n) = \begin{cases} 
+1 & \text{if } n \text{ is even} \\
+0 & \text{if } n \text{ is odd}
+\end{cases}
+$$
+
+Expression using the modulus operator:
+
+$$
+f(n) = 1 - (n \mod 2)
 $$
