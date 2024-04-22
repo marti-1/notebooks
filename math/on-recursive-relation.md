@@ -1,6 +1,6 @@
 # Recursive Relation
 
-Recursive relation -- a [decidable](https://github.com/marti-1/notebooks/blob/master/math/on-decision-problem.md) [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md).
+A [decidable](https://github.com/marti-1/notebooks/blob/master/math/on-decision-problem.md) [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md).
 
 ---
 
