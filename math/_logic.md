@@ -3,7 +3,7 @@
 * [Adequacy](https://github.com/marti-1/notebooks/blob/master/math/on-completeness.md)
 * [Completeness](https://github.com/marti-1/notebooks/blob/master/math/on-completeness.md)
 * [Implication](https://github.com/marti-1/notebooks/blob/master/math/on-implication.md)
-* Gödel's incompleteness theorem: [predicate](https://github.com/marti-1/notebooks/blob/master/math/on-prediicates.md)
+* Gödel's incompleteness theorem: [predicate](https://github.com/marti-1/notebooks/blob/master/math/on-prediicates.md#g%C3%B6dels-incompleteness-theorem)
 * [Model](https://github.com/marti-1/notebooks/edit/master/math/on-satisfiable.md)
 * [Formulas](https://github.com/marti-1/notebooks/blob/master/math/on-formulas.md)
 * [Functions & Relations](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md)
