@@ -11,3 +11,6 @@
 * [Validity](https://github.com/marti-1/notebooks/blob/master/math/on-valid-argument-form.md)
 * [Truth assignment](https://github.com/marti-1/notebooks/blob/master/math/on-truth-assignment.md)
 * [Tautology](https://github.com/marti-1/notebooks/blob/master/math/on-tautology.md)
+
+## To Read
+[Can every decision algorithm be expressed as a first order predicate?](https://math.stackexchange.com/questions/1856728/can-every-decision-algorithm-be-expressed-as-a-first-order-predicate)
