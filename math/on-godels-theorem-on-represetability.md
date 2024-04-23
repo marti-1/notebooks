@@ -2,7 +2,7 @@
 
 Let R be an n-ary relation of $\mathbb{N}$. If R is [recursive](https://github.com/marti-1/notebooks/tree/master/math), then R is _representable_.
 
-_(If R has an algorithm, then R is representable)_.
+_(If R is computable with a Turing Machine, then R is representable)_.
 
 **Example**
 
