@@ -6,7 +6,7 @@ Predicate $\Leftrightarrow$ [Relation](https://github.com/marti-1/notebooks/blob
 
 ---
 
-_Below are the notes from [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)]_
+_Below are the notes from [GEB](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)_
 
 A predicate can be defined in English e.g. `SUM(a,b,c)` returns 1 if a + b = c, 0 otherwise. This predicate can be _expressed_ in [pq-system](https://godel-escher-bach.fandom.com/wiki/Chapter_2) as `apbqc`. A predicate can be [represented](https://github.com/marti-1/notebooks/blob/master/math/on-representability.md) in a formal system:
 
