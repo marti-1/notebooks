@@ -6,7 +6,7 @@ $$
 \neg \text{THM}_{\Gamma}(\text{DIA}(p)) \Leftrightarrow \Gamma \vdash A\_{x\_1}\[0^p\]
 $$
 
-1. $\text{THM}_{\Gamma}$ -- a [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md) in a formal system NN extended with $\Gamma$ extension \[TODO: what is an extension?\].
+1. $\text{THM}_{\Gamma}$ -- a [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md) in a formal system NN [extended](https://github.com/marti-1/notebooks/blob/master/math/on-extension.md#formal-arithmetic) with $\Gamma$.
 2. $\text{DIA}(a)$ -- a computable function: `decode_formula(a) | replace free param x_1 with a | encode`. Deals only with one free param formulas.
 3. $\neg \text{THM}_{\Gamma}(\text{DIA}(a))$ -- a formula that claims that diagonalization of a formula whose code is $a$ is not a theorem!
 4. The assumption is made that $\text{THM}\_{\Gamma}$ is a decidable relation. The proof eventually ends by showing that this leads to a contradiction, and therefore $\text{THM}_{\Gamma}$ has to be undecidable. Using Corollary 1, $\Gamma~\text{is undecidable}$.
