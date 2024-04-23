@@ -9,7 +9,7 @@ $$
 1. $\text{THM}_{\Gamma}$ -- a [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md) in a formal system NN [extended](https://github.com/marti-1/notebooks/blob/master/math/on-extension.md#formal-arithmetic) with $\Gamma$.
 2. $\text{DIA}(a)$ -- a computable function: `decode_formula(a) | replace free param x_1 with a | encode`. Deals only with one free variable formulas.
 3. $\neg \text{THM}_{\Gamma}(\text{DIA}(a))$ -- a formula that claims that diagonalization of a formula whose code is $a$ is not a theorem!
-4. The assumption is made that $\text{THM}\_{\Gamma}$ is a decidable relation. The proof eventually ends by showing that this leads to a contradiction, and therefore $\text{THM}_{\Gamma}$ has to be undecidable. Using Corollary 1, $\Gamma~\text{is undecidable}$.
+4. The assumption is made that $\text{THM}\_{\Gamma}$ is a decidable relation. The proof eventually ends by showing that this leads to a contradiction, and therefore $\text{THM}_{\Gamma}$ has to be undecidable. Using Corollary 1, $\Gamma$ is undecidable.
 5. Since we assume that $\neg \text{THM}_{\Gamma}$ is decidable (negation of decidable is decidable), and $DIA(a)$ is computable there is a formula $A$ that [represents](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md) $\neg \text{THM}\_{\Gamma}(\text{DIA}(a))$, namely $A\_{x\_1}\[0^a\]$.
 6. By Lemma 3: $\neg \text{THM}_{\Gamma}(\text{DIA}(a)) \Leftrightarrow A\_{x_1}\[0^a\]$ for all $a\in \mathbb{N}$.
 7. The formula $A\_{x\_1}\[0^a\]$ has a Godel's number $p$.
@@ -19,9 +19,25 @@ $$
 
 ## Appendix: Lemma 1
 
-**Lemma 1**: Let $\Gamma \subseteq \text{FOR}_{NN}$. Then $\Gamma ~\text{is decidable} \Leftrightarrow \text{THM}\_{\Gamma}$ is a decidable relation. 
+**Lemma 1**: Let $\Gamma \subseteq \text{FOR}_{NN}$. Then $\Gamma$ is decidable $\Leftrightarrow \text{THM}\_{\Gamma}$ is a decidable relation. 
 
-**Corollary 1**: $\text{THM}\_{\Gamma}~\text{is an undecidable relation} \rightarrow \Gamma ~\text{is undecidable}$
+**Proof**:
+
+First, $\Gamma$ is decidable $\rightarrow \text{THM}_{\Gamma}$ is decidable. The gist of the proof is that since $\Gamma$ is [decidable](https://github.com/marti-1/notebooks/blob/master/math/on-decidable-set.md)), we can make $\text{THM}\_{\Gamma}$ as follows:
+
+1. Input encoded formula $a\in \mathbb{N}$.
+2. Decode $a$ -- $A$
+3. Does $\Gamma \vdash A$? If yes, return YES and halt;
+4. if no, return NO and halt.
+
+Second, $\text{THM}_{\Gamma}$ is decidable $\rightarrow $\Gamma$ is decidable:
+
+1. Input formula $A$ of $L_{NN}$.
+2. Encode $A$ into $a$.
+3. if $THM_{\Gamma}(a)$, return YES and halt;
+4. otherwise return NO, and ahlt.
+ 
+**Corollary 1**: $\text{THM}\_{\Gamma}$ is an undecidable relation $\rightarrow \Gamma$ is undecidable.
 
 ## Appendix: Lemma 2
 
