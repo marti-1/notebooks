@@ -45,4 +45,4 @@ Second, $\Gamma \vdash A_{x_1}[0^a] \rightarrow R(a)$:
 1. Let's assume that $\neg R(a)$.
 2. By EX2 $NN \vdash \neg A_{x_1}\[0^a\]$.
 3. Since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash \neg A_{x_1}\[0^a\]$.
-4. #3 contradicts consistency of $\Gamma$.
+4. #3 contradicts [consistency](https://github.com/marti-1/notebooks/blob/master/math/on-consistency.md) of $\Gamma$.
