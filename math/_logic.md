@@ -8,6 +8,7 @@
 * [Formulas](https://github.com/marti-1/notebooks/blob/master/math/on-formulas.md)
 * [Functions & Relations](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md)
 * [Propositional variables](https://github.com/marti-1/notebooks/blob/master/math/on-propositional-variables.md)
+* Representability: [representability](https://github.com/marti-1/notebooks/blob/master/math/on-representability.md), [predicate](https://github.com/marti-1/notebooks/blob/master/math/on-prediicates.md#g%C3%B6dels-incompleteness-theorem)
 * [Satisfiable](https://github.com/marti-1/notebooks/blob/master/math/on-satisfiable.md)
 * [Validity](https://github.com/marti-1/notebooks/blob/master/math/on-valid-argument-form.md)
 * [Truth assignment](https://github.com/marti-1/notebooks/blob/master/math/on-truth-assignment.md)
