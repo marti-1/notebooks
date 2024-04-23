@@ -4,7 +4,7 @@ Let R be an n-ary relation of $\mathbb{N}$. If R is [recursive](https://github.c
 
 _(If R is computable with a Turing Machine, then R is representable)_.
 
-**Example**
+**Example**:
 
 Define $R$ by $R(a) \Leftrightarrow \~\text{a is even}, a \geqslant 4, \~\text{and}\~ a \~ \text{is the sum of two prime numbers}$.
 
