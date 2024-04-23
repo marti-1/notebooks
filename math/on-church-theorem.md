@@ -23,9 +23,21 @@ $$
 
 **Corollary 1**: $\text{THM}\_{\Gamma}~\text{is an undecidable relation} \rightarrow \Gamma ~\text{is undecidable}$
 
-## Appendinx Lemma 2
+## Appendix: Lemma 2
 
-**Lemma 2**: $DIA(a) = \text{code of the formula} A\_{x_1}\[0^a\]$ is computable if $a$ is the code of a formula $A$ with exactly one free variable $x_1$.
+**Lemma 2**: There is a 1-ary computable function $DIA(a)$ s.t. $a$ is the code of a formula $A$ of $L_{NN}$ with exactly one free variable $x_1$, then $DIA(a) = \text{code of the formula} ~A\_{x_1}\[0^a\]$.
+
+**Proof**: Defina DIA as follows:
+
+```
+def DIA(a)
+  if a is the code of a formula A of L_{NN} with exactly one free variable x_1:
+    Code of A_{x_1}[0^a]
+  else:
+    0
+```
+
+The proof seems obvious. For reference check [[p304]](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md).
 
 ## Appendix: Lemma 3
 
