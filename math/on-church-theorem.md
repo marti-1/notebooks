@@ -36,6 +36,13 @@ $$
 * **EX1** If $R(a)$, then $\text{NN} \vdash A_{x_1}[0^a]$.
 * **EX2** If $\neg R(a)$, then $\text{NN} \vdash \neg A_{x_1}[0^a]$.
 
-First, $R(a) \rightarrow \Gamma \vdash A_{x_1}[0^a]$. By EX1, $NN \vdash A_{x_1}\[0^a\]$, and since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash A_{x_1}\[0^a\]$.
+First, $R(a) \rightarrow \Gamma \vdash A_{x_1}[0^a]$:
 
-Second, $\Gamma \vdash A_{x_1}[0^a] \rightarrow R(a)$. Let's assume that $\neg R(a)$.
+1. By EX1, $NN \vdash A_{x_1}\[0^a\]$
+2. Since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash A_{x_1}\[0^a\]$.
+
+Second, $\Gamma \vdash A_{x_1}[0^a] \rightarrow R(a)$:
+1. Let's assume that $\neg R(a)$.
+2. By EX2 $NN \vdash \neg A_{x_1}\[0^a\]$.
+3. Since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash \neg A_{x_1}\[0^a\]$.
+4. 3 contradicts consistency of $\Gamma$.
