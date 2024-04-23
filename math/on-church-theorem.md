@@ -36,4 +36,6 @@ $$
 * **EX1** If $R(a)$, then $\text{NN} \vdash A_{x_1}[0^a]$.
 * **EX2** If $\neg R(a)$, then $\text{NN} \vdash \neg A_{x_1}[0^a]$.
 
-TBC
+First, $R(a) \rightarrow \Gamma \vdash A_{x_1}[0^a]$. By EX1, $NN \vdash A_{x_1}\[0^a\]$, and since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash A_{x_1}\[0^a\]$.
+
+Second, $\Gamma \vdash A_{x_1}[0^a] \rightarrow R(a)$. Let's assume that $\neg R(a)$.
