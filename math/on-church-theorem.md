@@ -13,7 +13,7 @@ $$
 5. Since we assume that $\neg \text{THM}_{\Gamma}$ is decidable (negation of decidable is decidable), and $DIA(a)$ is computable there is a formula $A$ that [represents](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md) $\neg \text{THM}\_{\Gamma}(\text{DIA}(a))$, namely $A\_{x\_1}\[0^a\]$.
 6. By Lemma 3: $\neg \text{THM}_{\Gamma}(\text{DIA}(a)) \Leftrightarrow A\_{x_1}\[0^a\]$ for all $a\in \mathbb{N}$.
 7. The formula $A\_{x\_1}\[0^a\]$ has a Godel's number $p$.
-8. 6 & 7 imply that $\neg \text{THM}_{\Gamma}(\text{DIA}(p)) \Leftrightarrow A\_{x_1}\[0^p\]$
+8. #6 & #7 imply that $\neg \text{THM}_{\Gamma}(\text{DIA}(p)) \Leftrightarrow A\_{x_1}\[0^p\]$
 9. $Decode(\text{DIA}(p)) = A\_{x_1}\[0^p\]$
 10. $\neg \text{THM}_{\Gamma}(\text{DIA}(p))$ claims that $A\_{x_1}\[0^p\]$ is not a theorem, therefore $\neg A\_{x_1}\[0^p\]$. However, this is a contradiction.
 
@@ -45,4 +45,4 @@ Second, $\Gamma \vdash A_{x_1}[0^a] \rightarrow R(a)$:
 1. Let's assume that $\neg R(a)$.
 2. By EX2 $NN \vdash \neg A_{x_1}\[0^a\]$.
 3. Since $\Gamma$ is an extension of NN, it follows that $\Gamma \vdash \neg A_{x_1}\[0^a\]$.
-4. 3 contradicts consistency of $\Gamma$.
+4. #3 contradicts consistency of $\Gamma$.
