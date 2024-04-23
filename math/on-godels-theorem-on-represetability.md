@@ -1,6 +1,6 @@
 # Godel's Theorem on [Representability](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md)
 
-Let R be an n-ary relation of $\mathbb{N}$. If R is recursive \[TODO: link to Church's definition of recursive\], then R is _representable_.
+Let R be an n-ary relation of $\mathbb{N}$. If R is [recursive](https://github.com/marti-1/notebooks/tree/master/math), then R is _representable_.
 
 _(If R has an algorithm, then R is representable)_.
 
