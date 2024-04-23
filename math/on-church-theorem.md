@@ -1,17 +1,21 @@
 # Church's Theorem
 
-Let $\Gamma$ be a consistent extension of NN. Then $\Gamma$ is undecidable:
+**Theorem**: Let $\Gamma$ be a consistent extension of NN. Then $\Gamma$ is undecidable:
 
 $$
 \neg \text{THM}_{\Gamma}(\text{DIA}(p)) \Leftrightarrow \Gamma \vdash A\_{x\_1}\[0^p\]
 $$
 
-* $\text{THM}_{\Gamma}$ -- a [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md) in a formal system NN extended with $\Gamma$ extension \[TODO: what is an extension?\].
-* $\text{DIA}(a)$ -- a computable function: `decode_formula(a) | replace free param x_1 with a | encode`. Deals only with one free param formulas.
-* $\neg \text{THM}_{\Gamma}(\text{DIA}(a))$ -- a formula that claims that diagonalization of a formula whose code is $a$ is not a theorem!
-* The assumption is made that $\text{THM}\_{\Gamma}$ is a decidable relation. The proof eventually ends by showing that this leads to a contradiction, and therefore $\text{THM}_{\Gamma}$ has to be undecidable. Using Corollary 1, $\Gamma~\text{is undecidable}$.
-* Since we assume that $\neg \text{THM}_{\Gamma}$ is decidable (negation of decidable is decidable), and $DIA(a)$ is computable there is a formula $A$ that [represents](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md) $\neg \text{THM}\_{\Gamma}(\text{DIA}(a))$, namely $A\_{x\_1}\[0^a\]$.
-* The formula $A\_{x\_1}\[0^a\]$ has a Godel's number $p$.
+1. $\text{THM}_{\Gamma}$ -- a [relation](https://github.com/marti-1/notebooks/blob/master/math/on-functions-and-relations.md) in a formal system NN extended with $\Gamma$ extension \[TODO: what is an extension?\].
+2. $\text{DIA}(a)$ -- a computable function: `decode_formula(a) | replace free param x_1 with a | encode`. Deals only with one free param formulas.
+3. $\neg \text{THM}_{\Gamma}(\text{DIA}(a))$ -- a formula that claims that diagonalization of a formula whose code is $a$ is not a theorem!
+4. The assumption is made that $\text{THM}\_{\Gamma}$ is a decidable relation. The proof eventually ends by showing that this leads to a contradiction, and therefore $\text{THM}_{\Gamma}$ has to be undecidable. Using Corollary 1, $\Gamma~\text{is undecidable}$.
+5. Since we assume that $\neg \text{THM}_{\Gamma}$ is decidable (negation of decidable is decidable), and $DIA(a)$ is computable there is a formula $A$ that [represents](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md) $\neg \text{THM}\_{\Gamma}(\text{DIA}(a))$, namely $A\_{x\_1}\[0^a\]$.
+6. By Lemma 3: $\neg \text{THM}_{\Gamma}(\text{DIA}(a)) \Leftrightarrow A\_{x_1}\[0^a\]$ for all $a\in \mathbb{N}$.
+7. The formula $A\_{x\_1}\[0^a\]$ has a Godel's number $p$.
+8. 6 & 7 imply that $\neg \text{THM}_{\Gamma}(\text{DIA}(p)) \Leftrightarrow A\_{x_1}\[0^p\]$
+9. $Decode(\text{DIA}(p)) = A\_{x_1}\[0^p\]$
+10. $\neg \text{THM}_{\Gamma}(\text{DIA}(p))$ claims that $A\_{x_1}\[0^p\]$ is not a theorem, therefore $\neg A\_{x_1}\[0^p\]$. However, this is a contradiction.
 
 ## Appendix: Lemma 1
 
@@ -19,14 +23,17 @@ $$
 
 **Corollary 1**: $\text{THM}\_{\Gamma}~\text{is an undecidable relation} \rightarrow \Gamma ~\text{is undecidable}$
 
+## Appendinx Lemma 2
 
+**Lemma 2**: $DIA(a) = \text{code of the formula} A\_{x_1}\[0^a\]$ is computable if $a$ is the code of a formula $A$ with exactly one free variable $x_1$.
 
 ## Appendix: Lemma 3
 
-**Lemma 3**: Let $\Gamma$ be a consistent extension of NN, let R be a 1-ary relation on $\mathbb{N}$ and let A be a formula that represents R. Then for all $a\in \mathbb{N}$, $R(a) \Leftrightarrow \Gamma \vdash A_{x_1}[0^a]$.
+**Lemma 3**: Let $\Gamma$ be a consistent extension of NN, let $R$ be a 1-ary relation on $\mathbb{N}$ and let $A$ be a formula that represents $R$. Then for all $a\in \mathbb{N}$, $R(a) \Leftrightarrow \Gamma \vdash A_{x_1}[0^a]$.
 
-**Proof**: Since A represents R, it follows that for all $a \in \mathbb{N}$,
+**Proof**: Since A [represents](https://github.com/marti-1/notebooks/blob/master/math/on-representing.md) $R$, it follows that for all $a \in \mathbb{N}$,
 
-**EX1** If $R(a)$, then $\text{NN} \vdash A_{x_1}[0^a]$.
+* **EX1** If $R(a)$, then $\text{NN} \vdash A_{x_1}[0^a]$.
+* **EX2** If $\neg R(a)$, then $\text{NN} \vdash \neg A_{x_1}[0^a]$.
 
-**EX2** If $\neg R(a)$, then $\text{NN} \vdash \neg A_{x_1}[0^a]$.
+TBC
