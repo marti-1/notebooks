@@ -1,4 +1,4 @@
-# _Representing_
+# Representability
 
 _I think that GEB uses "represents" whilst [[1]](https://www.amazon.com/Introduction-Mathematical-Logic-Dover-Mathematics/dp/0486497852) "expresses". So I will just use "represents"._
 
