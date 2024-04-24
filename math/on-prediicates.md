@@ -17,4 +17,4 @@ Where "instance" means replacing all free variables (e.g. a, b and c) by numeral
 
 ## Gödel's Incompleteness Theorem
 
-Gödel's incompleteness theorem showed that some logical predicates are not represeted in TNT, namely there is a predicate whose true instance is not a theorem.
+Gödel's incompleteness theorem showed that some logical predicates are not represented in TNT, namely there is a predicate whose true instance is not a theorem.
