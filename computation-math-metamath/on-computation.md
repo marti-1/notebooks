@@ -1,0 +1,2 @@
+* [What does "efficiently computable" mean?](https://www.reddit.com/r/math/comments/6j17hw/what_does_efficiently_computable_mean_eg_for_a/) -- O(p(n)) for some polynomial p.
+* [Oracles, Turing degrees, Turing-reduciblility, etc](https://www.scottaaronson.com/democritus/lec4.html)
